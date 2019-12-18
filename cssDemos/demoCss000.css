@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration-line: none;
+}
+.header{
+    width: 1100px;
+    background-image: url("../images/img0/backgroundIndex.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    left:100px;
+}
+#title{
+    width: 1200px;
+    position: relative;
+    left:100px;
+    height:55px;
+}
+#title>li{
+    float: left;
+    /*border: #0b9bff 2px solid;*/
+    width: 92px;
+    height: 55px;
+    text-align: center;
+    display: inline-block;
+    line-height: 55px;
+    color: white;
+    font-size: 24px;
+    z-index: 999;
+}
+#title>li>a{
+    color: white;
+}
+#titleList{
+    position: relative;
+    z-index: 9;
+    width:100%;
+    height: 55px;
+    background-color: #2c323b;
+    margin: 0 auto;
+}
+.active{
+    background-color: #0b9bff;
+    font-size: 30px;
+}
+
+#midPart{
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1200px;
+    border: #21fa27 3px solid;
+}
+#midPart1{
+    background-image: url("../images/img0/banner_01.jpg");
+    height: 397px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#midPart2{
+    background-image: url("../images/img0/banner_03.jpg");
+    height: 397px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#midPart3{
+    background-image: url("../images/img0/banner_05.jpg");
+    height: 397px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#midPart{
+    width: 1200px;
+    height: 600px;
+}
+#midSpan{
+    position: fixed;
+    top:160px;
+}
+.spanHidden{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    /*border: #21fa27 1px solid;*/
+    margin-bottom: 6px;
+    line-height: 50px;
+    text-align: right;
+    font-style: oblique;
+    left:-80px;
+}
+.spanHidden a{
+    color: #1b29ff;
+    font-size: larger;
+}
+.spanNoHidden{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    /*border: #fa0e0c 1px solid;*/
+    margin-bottom: 6px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #e2e186;
+}
+.spanNoHidden a{
+    color: #fa0e0c;
+    font-size: 36px;
+    font-family: "MS Outlook";
+}
+#midPart1>img{
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+#midPart1>video{
+    float: left;
+}
+#bottom{
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    background-color: #2c323b;
+}
+#bottom>*{
+    /*color: white;*/
+    color: rgb(255,255,255);
+}
+#bottom>div{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top:20px;
+}
+#bottom>div>h5{
+
+    font-size: 20px;
+}

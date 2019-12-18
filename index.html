@@ -7,9 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-
+        body{
+            padding: 0;
+            background-image: url("./images/img0/timg.jpg");
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+        }
         .sign-up-form{
-            width: 300px;
+            width: 320px;
             box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
             background: #fff;
             padding: 20px;
@@ -21,10 +27,11 @@
             margin-bottom: 30px;
         }
         .input-box{
+            width: 280px ;
             border-radius:20px ;
             padding: 10px;
             margin: 10px 0;
-            width: 100%;
+
             border: 1px solid #999;
 
         }
@@ -48,21 +55,34 @@
         <img src="" alt="">
         <h1>Sign Up Now</h1>
         <form action="">
-            <input type="email" class="input-box" placeholder="Your Email">
-            <input type="password" class="input-box" placeholder="Your Password">
-            <p>
-                <span>
-                    <input type="checkbox">我同意
-                </span>
-            </p>
-            <button type="button" class="signup-btn">
-                Sign up
+            <input type="text" class="input-box" placeholder="Your Email" id="email">
+            <input type="password" class="input-box" placeholder="Your Password" id="passwork">
+
+            <button type="button" class="signup-btn" id="signInBtn">
+                Sign in
             </button>
             <hr>
             <p class="or">OR</p>
-            <button type="button" class="twitter-btn">Login with twitter</button>
-            <p>Do you have an account ? <a href="#">Sign in</a></p>
+            <button type="button" class="twitter-btn" id="twitterBtn">Tourist identity login</button>
+            <p>Do you don't have an account ? <a href="#" id="signUp">Sign up</a></p>
         </form>
     </div>
 </body>
+<script>
+    var email=document.getElementById("eamil");
+    var password=document.getElementById("password");
+    var signInBtn=document.getElementById("signInBtn");
+    signInBtn.onclick=function (){
+        window.location.href="index1.html";
+    };
+    var twitterBtn=document.getElementById("twitterBtn");
+    twitterBtn.onclick=function () {
+        window.location.href="index1.html";
+    };
+    var signUp=document.getElementById("signUp");
+    signUp.onclick=function () {
+        alert("请联系向1796887546@qq.com发送一封邮件申请账号");
+    }
+
+</script>
 </html>

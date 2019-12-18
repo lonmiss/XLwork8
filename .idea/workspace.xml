@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0003c378-ce4f-4951-88c2-49519328f6f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cssDemos/demoCss000.css" beforeDir="false" afterPath="$PROJECT_DIR$/cssDemos/demoCss000.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsDemos/demoJs000.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsDemos/demoJs000.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,12 +17,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/index1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="494">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              <folding>
+                <element signature="e#1424#1430#0" expanded="true" />
+                <element signature="e#1430#1436#0" expanded="true" />
+                <element signature="e#1436#1442#0" expanded="true" />
+                <element signature="e#1442#1448#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsDemos/demoJs000.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -42,6 +59,9 @@
       <list>
         <option value="$PROJECT_DIR$/indexDemos/demo001.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/jsDemos/demoJs000.js" />
+        <option value="$PROJECT_DIR$/cssDemos/demoCss000.css" />
+        <option value="$PROJECT_DIR$/index1.html" />
       </list>
     </option>
   </component>
@@ -50,12 +70,15 @@
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -71,14 +94,17 @@
             <path>
               <item name="XLwork8" type="b2602c69:ProjectViewProjectNode" />
               <item name="XLwork8" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="img1" type="462c0819:PsiDirectoryNode" />
+              <item name="indexDemos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XLwork8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XLwork8" type="462c0819:PsiDirectoryNode" />
+              <item name="jsDemos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,16 +141,19 @@
       <workItem from="1576488603314" duration="2382000" />
       <workItem from="1576495647536" duration="9892000" />
       <workItem from="1576540597682" duration="1525000" />
+      <workItem from="1576591159005" duration="502000" />
+      <workItem from="1576656580072" duration="4566000" />
+      <workItem from="1576668019762" duration="9172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16075000" />
+    <option name="totallyTimeSpent" value="30315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21800596" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -169,10 +198,19 @@
     <entry file="file://$PROJECT_DIR$/images/img1/second/twoHear1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/img0/109951163723746558.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/img0/doyoudo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/img0/timg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/indexDemos/demo001.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        <state relative-caret-position="-3705">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -181,8 +219,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="242">
+          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cssDemos/demoCss000.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsDemos/demoJs000.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#1424#1430#0" expanded="true" />
+            <element signature="e#1430#1436#0" expanded="true" />
+            <element signature="e#1436#1442#0" expanded="true" />
+            <element signature="e#1442#1448#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
