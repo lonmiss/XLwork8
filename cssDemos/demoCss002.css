@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    background-color: #080808;
+}
+#section1{
+    background-color: #080808;
+}
+#section2{
+    background-color: #ffffff;
+}
+#section3{
+    background-color: #2d2d2d;
+}
+#floatImg1{
+    height:100px;
+    position: fixed;
+    right: 30px;
+}
+#niwodejiyi{
+    display:inline-block;
+    height:25px;
+    margin-top:-10px;
+    color: #999999;
+    font-family:SimHei;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.section1text{
+    width:33.3%;
+    height:100px; 
+    float:left;
+    text-align: center;
+}
+.section2text{
+    width:32%;
+    height:100px; 
+    float:left;
+    text-align: center;
+}
+.fenjie1{
+    float:left;
+    height: 100px;
+    width: 1px;
+    background-color: #D9b995
+}
+.staionP1{
+    color:#e6bc81;
+    font-size: 20px;
+    font-family: SourceHanSansCN-Medium;
+    margin-top: 25px;
+}
+.staionP2{
+    color:#999999;
+    font-size: 18px;
+    font-family: SourceHanSansCN-Regular;
+    margin-top: 12px;
+}
+.sec2topP{
+    width:33.3%;
+    height:160px;
+    float:left;
+    text-align: center;
+}
+.sec2div1{
+    font-size: 18px;
+    margin-top: 12px;
+    line-height: 35px;
+}
+.sec2p1{
+    font-size: 28px;
+    font-family:SourceHanSansCN-Medium;
+    color: #000000;
+}
+.sec2p2{
+    font-size: 16px;
+    color: #666666;
+    font-family:SourceHanSansCN-Regular;
+}
+.sec2midp{
+    width:33.3%;
+    height:220px; 
+    float:left;
+    
+}
+.card{
+    width:33.3%;
+    height:160px;
+    float:left;
+    text-align: center;
+}
+
+.Erweima{
+    width: 100px;
+    margin: 0 auto;
+}
+
+.musicERp{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: SourceHanSansCN-Regular;
+    text-align: center;
+}
+
+ul,li{
+    list-style: none;
+    text-align: center;
+
+}
+.pS{
+    font-size: 14px;
+		height: 25px;
+		line-height: 25px;
+		color: red;
+		position: absolute;
+		left: 1000px;
+}
+.topNav{
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    background-color: darkgray;
+    position: relative;
+}
+.topImg{
+    margin-left: 230px;
+    margin-top: 6px;
+}
+.sliderTop{
+    width: 800px;
+    height: 20px;
+    margin-left:250px;
+    margin-top: -22px;
+    position: relative;
+    color: red;
+    overflow: hidden;
+}
+
+
+.box{
+    width: 1080px;
+    height: 382px;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+.slider{
+    width: 7560px;
+    position: absolute;
+    left: -1080px;
+}
+.slide{
+    width: 1080px;
+    float: left;
+}
+.box>span{
+    display: block;
+    width: 30px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    color:#ccc;
+    top: 175px;
+    line-height: 50px;
+    background: #080808;
+    font-size: 30px;
+    position: absolute;
+    opacity: 50;
+}
+#left{
+    left: 20px;
+}
+#right{
+    left: 1030px;
+}
